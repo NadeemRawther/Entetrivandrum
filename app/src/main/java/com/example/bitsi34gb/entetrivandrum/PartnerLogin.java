@@ -87,8 +87,8 @@ public class PartnerLogin extends AppCompatActivity implements LoaderCallbacks<C
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-               // Intent intent = new Intent(Partner.class);
-                //startActivity(intent);
+                Intent intent = new Intent(PartnerLogin.this,PartnerActivity.class);
+                startActivity(intent);
                 //attemptLogin();
             }
         });
