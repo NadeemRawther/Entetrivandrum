@@ -58,7 +58,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_gravity="bottom"
@@ -70,7 +70,7 @@
             tools:text="Restaurant" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:src="@mipmap/rest"
@@ -86,11 +86,10 @@
         android:layout_height="170dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView3"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
 
         <TextView
@@ -105,7 +104,7 @@
             tools:text="Medical Store" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:src="@mipmap/unnamed"
@@ -116,18 +115,19 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/cardview5"
         android:layout_width="125dp"
         android:layout_height="170dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="36dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="74dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/cardView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.47">
 
 
         <TextView
@@ -143,7 +143,7 @@
             tools:text="Textiles" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:src="@mipmap/fashion"
